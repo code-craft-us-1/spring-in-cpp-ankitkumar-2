@@ -1,6 +1,6 @@
 #include "stats.h"
 #include <rpcdce.h>
-#include<math.h>
+#include<cmath>
 using namespace Statistics; 
 
 Stats Statistics::ComputeStatistics(const std::vector<double>& numbers)
