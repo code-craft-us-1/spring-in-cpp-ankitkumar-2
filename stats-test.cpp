@@ -16,7 +16,7 @@ TEST(Statistics, AverageNaNForEmpty) {
     //All fields of computedStats (average, max, min) must be
     //NAN (not-a-number), as defined in math.h
 
-    EXPECT_EQ(isnan(computedStats.average), true );
+    EXPECT_EQ(std::isnan(computedStats.average), 1 );
     
     //Design the gtest EXPECT statement here.
     //Use http://www.cplusplus.com/reference/cmath/isnan/
