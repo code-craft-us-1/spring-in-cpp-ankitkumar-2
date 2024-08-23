@@ -1,6 +1,7 @@
 #pragma once
 #include <numeric>
 #include <vector>
+#include<iostream>
 
 
 namespace Statistics {

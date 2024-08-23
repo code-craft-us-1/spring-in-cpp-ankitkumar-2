@@ -1,5 +1,6 @@
 #include "stats.h"
 #include<cmath>
+#include<algorithm>
 using namespace Statistics; 
 
 Stats Statistics::ComputeStatistics(const std::vector<double>& numbers)
